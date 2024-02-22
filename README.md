@@ -1,0 +1,2 @@
+# dbtfun
+A dbt project
