@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: intermediate_customer
+    columns:
+        - name: customer_id
+          tests:
+              - unique
+              - not_null
+        - name: customer_firstname
+          tests:
+              - not_null
+        - name: customer_lastname
+          tests:
+              - not_null
+        - name: customer_email
+          tests:
+              - not_null
+
+            
